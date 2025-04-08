@@ -1,0 +1,28 @@
+.list-compan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #737373;
+    border-bottom: 1px solid #737373;
+    padding: 70px 0;
+    margin: 60px 0;
+}
+
+.list-compan__link {
+    display: flex;
+    justify-content: center;
+    flex-basis: 70px;
+}
+
+@media (max-width: 680px) {
+    .list-compan {
+        flex-wrap: wrap;
+        gap: 40px 10px;
+    }
+
+    .list-compan__link {
+        flex-grow: 1;
+        align-self: center;
+    }
+}
