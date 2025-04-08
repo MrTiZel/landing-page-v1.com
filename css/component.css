@@ -1,0 +1,28 @@
+.button-base {
+    padding: 18px 50px;
+    color: var(--color_Gdark);
+    border: 1px solid var(--color_Gdark);
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.button-base_how-work {
+    background: var(--color_Glight);
+    border: 0;
+}
+
+.button-base_get-started {
+    background: var(--color_Gdark);
+    color: #fff;
+    border: 0;
+    vertical-align: middle;
+}
+
+.button-base_get-started img {
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}

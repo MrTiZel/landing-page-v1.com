@@ -6,39 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/component.css">
     <title>Landing Page V1</title>
 </head>
 
 <body>
     <header>
         <div class="wrapper">
-            <section class="header_top_panel">
-                <a class="top_panel__logo" href="/"><img src="" alt="Логотип Lading page"></a>
+            <section class="header-top-panel">
+                <a class="header-top-panel__logo" href="/"><img src="/img/Logo.png" alt="Логотип Lading page"></a>
                 <nav>
-                    <ul class="top_panel__menu">
-                        <li class="top_panel__li"><a href="#"></a></li>
-                        <li class="top_panel__li"><a href="#"></a></li>
-                        <li class="top_panel__li"><a href="#"></a></li>
+                    <ul class="header-top-panel__menu">
+                        <li><a class="header-top-panel__link" href="#">Contact</a></li>
+                        <li><button class="button-base button-base_how-work hide2">How it works</button></li>
+                        <li><button class="button-base button-base_get-started hide1"><img src="/img/RocketLaunch.png"
+                                    alt="ракета"> <span>Get
+                                    started</span></button></li>
                     </ul>
                 </nav>
             </section>
-            <section class="header_center_panel">
-                <div class="header_center_panel__cont_block">
-                    <h1 class="header_center_panel__name"></h1>
-                    <p class="header_center_panel__text"></p>
-                    <ul class="header_center_panel__button">
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
+            <section class="header-center-panel">
+                <div class="header-center-panel__cont_block">
+                    <h1 class="header-center-panel__name">Create Engaging<br />Landing Pages</h1>
+                    <p class="header-center-panel__text">Build beautiful landing pages in record time with <a
+                            href="#">Anima</a>’s
+                        Landing <br /> Page UI kit for Figma. No code required!</p>
+                    <div class="header-center-panel__button">
+                        <button class="button-base button-base_how-work hide1">How it works</button>
+                        <button class="button-base button-base_get-started"><img src="/img/RocketLaunch.png"
+                                alt="ракета"> <span>Get
+                                started</span></button>
+                    </div>
                 </div>
-                <div class="header_center_panel__img">
-                    <img src="" alt="Картинка с телефоном">
-                </div>
+                <img class="header-center-panel__img" src="/img/Visuals.png" alt="Картинка с телефоном">
             </section>
         </div>
     </header>
-    <main>
+    <!-- <main>
         <div class="wrapper">
             <section></section>
             <section></section>
@@ -53,7 +59,7 @@
     </main>
     <footer>
         <div class="wrapper"></div>
-    </footer>
+    </footer> -->
 </body>
 
 </html>
