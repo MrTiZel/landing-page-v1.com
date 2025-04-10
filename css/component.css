@@ -18,11 +18,23 @@
     background: var(--color_Gdark);
     color: #fff;
     border: 0;
-    vertical-align: middle;
 }
 
 .button-base_get-started img {
     vertical-align: middle;
-    position: relative;
-    top: -2px;
+}
+
+.button-base_get-started-pick {
+    background: var(--color_Glight);
+    color: var(--color_Gdark);
+    border: 0;
+    width: 100%;
+}
+
+.button-base_get-started-pick img {
+    vertical-align: middle;
+}
+
+.butt-light {
+    background: #fff;
 }
