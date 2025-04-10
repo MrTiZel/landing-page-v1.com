@@ -47,7 +47,7 @@
 .features__text {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 .features__h2 {
@@ -140,7 +140,7 @@
 .metrics__text {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 .metrics__h2 {
@@ -272,5 +272,122 @@
     .get-landing__img {
         width: 100%;
         height: 100%;
+    }
+}
+
+.stories {
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.stories__text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.stories__h2 {
+    font-size: 3em;
+}
+
+.stories__p {
+    font-size: 1em;
+}
+
+.stories__blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.stories__block {
+    display: flex;
+    flex-basis: 370px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 40px 30px;
+    background: #fff;
+    border: 1px solid var(--color_Glight);
+    border-radius: 15px;
+    gap: 30px;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+.stories__block:first-child {
+    margin-left: 0;
+}
+
+.stories__names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.stories__icon {
+    width: 56px;
+    margin-bottom: 10px;
+}
+
+.stories__name {
+    font-size: 2em;
+}
+
+.stories__nikname {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.stories__comm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.stories__rating {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.stories__starBorder {
+    content: url(/img/star1.png);
+    width: 100%;
+}
+
+.starFull {
+    content: url(/img/star2.png);
+    width: 100%;
+}
+
+@media (max-width: 960px) {
+    .stories__blocks {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 680px) {
+    .stories__blocks {
+        gap: 30px;
+    }
+
+    .stories__block {
+        margin-left: 0;
+    }
+
+    .stories__name {
+        line-height: 1em;
     }
 }
