@@ -728,6 +728,12 @@
     font-size: 1em;
 }
 
+.get-form__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .get-form__text-link {
     display: flex;
     flex-direction: column;
@@ -735,10 +741,14 @@
     gap: 40px;
 }
 
-.get-form__socialsg {
+.get-form__socials {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 15px;
+}
+
+.get-form__name {
+    font-size: 1.4em;
 }
 
 .get-form__list {
@@ -747,6 +757,43 @@
     gap: 10px;
 }
 
+.get-form__form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.get-form__form ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.get-form__Fname {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.get-form__Fname span {
+    margin: 0 5px;
+}
+
+.get-form__Fname input {
+    font-size: 1.1em;
+}
+
+.get-form__email {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 20px;
+
+}
 
 .footer-cont {
     background: #2D2D2D;
