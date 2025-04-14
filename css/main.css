@@ -704,8 +704,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
-    max-width: 100%;
     background: #fff;
     border-radius: 20px;
     margin: 120px 0;
@@ -731,13 +729,14 @@
 .get-form__content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .get-form__text-link {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1;
     gap: 40px;
 }
 
@@ -757,42 +756,81 @@
     gap: 10px;
 }
 
-.get-form__form {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.get-form__form ul {
+.get-form__contact {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
+.get-form__li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.get-form__li img {
+    margin-right: 10px;
+}
+
+.get-form__block {
+    display: flex;
+    flex: 2;
+}
+
+.get-form__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    flex-basis: 600px;
+    gap: 30px;
+}
+
+.get-form__inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.get-form__inputs img {
+    border-right: 2px solid #DBE3FF;
+    padding-right: 5px;
+}
+
+.get-form__inputs input {
+    width: 100%;
+    margin-left: 5px;
+}
+
+.get-form__inputs input:focus {
+    outline: none;
+}
+
 .get-form__Fname {
     display: flex;
     align-items: center;
-    border: 1px solid #000;
+    border: 1px solid #d8d8d8;
     border-radius: 20px;
     padding: 20px;
-
-}
-
-.get-form__Fname span {
-    margin: 0 5px;
-}
-
-.get-form__Fname input {
-    font-size: 1.1em;
 }
 
 .get-form__email {
     display: flex;
     align-items: center;
-    border: 1px solid #000;
+    border: 1px solid #d8d8d8;
     border-radius: 20px;
     padding: 20px;
 
+}
+
+@media (max-width: 960px) {
+    .get-form__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 50px;
+    }
 }
 
 .footer-cont {
